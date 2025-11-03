@@ -34,7 +34,7 @@ def predict_knn(train_X: ndarray, train_y: ndarray, test_X: ndarray, k: int) -> 
     return np.array(predictions)
 
 def calculate_accuracy(pred: ndarray, true: ndarray) -> float:
-    return np.mean(pred == true) * 100
+    return np.mean(pred == true) * 100 #type: ignore
 
 
 
