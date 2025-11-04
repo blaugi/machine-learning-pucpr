@@ -51,8 +51,13 @@ def extract_features():
 
     # Salva as características extraídas em um csv (um vetor de valores para cada imagem)
     df = pd.DataFrame(X)
-    df.to_csv("X_im.csv", header=False, index=False)
+    csv_base = relpath / "data" / "processed"
+    if not os.path.exists(csv_base):
+        os.makedirs(csv_base)
+    print(f"Saving features to {csv_base / 'X_im.csv'}")
+    df.to_csv(csv_base / "X_im.csv", header=False, index=False)
 
     # Salva y que contém a classe de cada imagem
     df_class = pd.DataFrame(y)
-    df_class.to_csv("y_im.csv", header=False, index=False)
+    print(f"Saving labels to {csv_base  / 'y_im.csv'}")
+    df_class.to_csv(csv_base/ "y_im.csv", header=False, index=False)

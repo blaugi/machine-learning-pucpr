@@ -68,12 +68,12 @@ def main():
     extract_features()
 
     # Labels
-    y = pd.read_csv("y_im.csv", header=None)
+    y = pd.read_csv(dataset_path.parent / "processed" / "y_im.csv", header=None)
     y = y.to_numpy()
     y = np.ravel(y)
     print(y.shape)
     # deep features
-    X = pd.read_csv("X_im.csv", header=None)
+    X = pd.read_csv(dataset_path.parent / "processed" / "X_im.csv", header=None)
     X = X.to_numpy()
     print(X.shape)
     print(y.shape)
