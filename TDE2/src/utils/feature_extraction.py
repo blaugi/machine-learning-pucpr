@@ -30,12 +30,11 @@ def extract_features():
     X_deep = []
     y = []
 
-    for class_folder, instance_files in file_dict.items():
+    for (class_folder, instance_files), classe in zip(file_dict.items(), range(len(file_dict))):
         for i in range(len(instance_files)):
             file_name = (
                 str(os.path.join(class_folder, instance_files[i]))
             )
-            classe = class_folder.split(os.path.sep)[-1]
             y.append(classe)
             
             imagem = cv2.imread(file_name)
