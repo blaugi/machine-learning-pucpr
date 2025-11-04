@@ -5,9 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "mlflow>=3.5.1",
     "numpy>=2.3.4",
     "pandas>=2.3.3",
     "scikit-learn>=1.7.2",
+    "taskipy>=1.14.1",
     "xgboost>=3.1.1",
 ]
 
@@ -30,3 +32,6 @@ dev = [
     "ipywidgets>=8.1.8",
     "tqdm>=4.67.1",
 ]
+
+[tool.taskipy.tasks]
+mlflow_web = "mlflow ui --port 5000"

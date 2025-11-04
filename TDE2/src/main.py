@@ -2,7 +2,9 @@ import glob
 import os
 import pathlib
 import zipfile
-from utils.config import Config 
+from utils.config import Config
+import altair as alt
+import mlflow
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -27,13 +29,15 @@ from utils.feature_extraction import extract_features
 
 RANDOM_STATE = 42
 np.random.seed(RANDOM_STATE)
+mlflow.sklearn.autolog()
+
 
 def extract_zip(path_to_zip_file, directory_to_extract_to):
     with zipfile.ZipFile(path_to_zip_file, "r") as zip_ref:
         zip_ref.extractall(directory_to_extract_to)
 
-def load_and_process_data(relpath: pathlib.Path):
 
+def load_and_process_data(relpath: pathlib.Path):
     zip_path = relpath / "data" / "raw" / "Base.zip"
     dataset_path = relpath / "data" / "raw"
     if os.path.exists(os.path.join(dataset_path, "Base")):
@@ -70,6 +74,7 @@ def load_and_process_data(relpath: pathlib.Path):
 def main():
     relpath = pathlib.Path(__file__).parent.parent
     Xnew, Xval, ynew, yval, dataset_path = load_and_process_data(relpath)
+    print(f"Xnew.shape: {Xnew.shape}, Xval.shape: {Xval.shape}, ynew.shape: {ynew.shape}, yval.shape: {yval.shape}")
 
     # Defining the models and their hyperparameter grids
     models = Config.Models.models
@@ -99,56 +104,77 @@ def main():
 
         # Using cross_validation to evaluate the performance
         cv_scores = cross_val_score(gs.best_estimator_, Xnew, ynew, cv=5)
-        print("Cross-val (5 folds) média de acurácia:", f"{cv_scores.mean():.4f} (+/- {cv_scores.std():.4f})")
+        print(
+            "Cross-val (5 folds) média de acurácia:",
+            f"{cv_scores.mean():.4f} (+/- {cv_scores.std():.4f})",
+        )
 
         # Predictions based on cross_validation
         y_pred = cross_val_predict(gs.best_estimator_, Xnew, ynew, cv=5)
 
-        acc  = accuracy_score(ynew, y_pred)
+        acc = accuracy_score(ynew, y_pred)
         prec = precision_score(ynew, y_pred, average="binary")
-        rec  = recall_score(ynew, y_pred, average="binary")
-        f1   = f1_score(ynew, y_pred, average="binary")
+        rec = recall_score(ynew, y_pred, average="binary")
+        f1 = f1_score(ynew, y_pred, average="binary")
 
-        results.append({
-            "model": name,
-            "accuracy": acc,
-            "precision": prec,
-            "recall": rec,
-            "f1": f1,
-        })
-
+        results.append(
+            {
+                "model": name,
+                "accuracy": acc,
+                "precision": prec,
+                "recall": rec,
+                "f1": f1,
+            }
+        )
 
     df_results = pd.DataFrame(results)
 
     best_name = df_results.loc[df_results["accuracy"].idxmax()]["model"]
     best_estimator = best_models[best_name]
 
-    print(f"Best Model (accuracy): {best_name} — {df_results.loc[df_results['accuracy'].idxmax()]['accuracy']:.4f}")
+    print(
+        f"Best Model (accuracy): {best_name} — {df_results.loc[df_results['accuracy'].idxmax()]['accuracy']:.4f}"
+    )
 
     y_pred_best = cross_val_predict(best_estimator, Xnew, ynew, cv=5)
     cm = confusion_matrix(ynew, y_pred_best)
 
-
-    target_names = [folder.split(os.path.sep)[-1] for folder in glob.glob(str(dataset_path  / "Base" / "*"))]
+    target_names = [
+        folder.split(os.path.sep)[-1]
+        for folder in glob.glob(str(dataset_path / "Base" / "*"))
+    ]
     disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=target_names)
     plt.figure(figsize=(5, 5))
-    disp.plot(values_format='d', cmap=None)
+    disp.plot(values_format="d", cmap=None)
     plt.title(f"Confusion Matrix — {best_name}")
     plt.savefig(relpath / "figures" / "confusion_matrix_best_model.png")
 
     print("\nClassification Report (Best model):")
     print(classification_report(ynew, y_pred_best, target_names=target_names))
 
-
     plt.figure(figsize=(8, 4))
-    plt.bar(df_results['model'], df_results['accuracy'], color='skyblue')
-    plt.xlabel('Classifier')
-    plt.ylabel('Accuracy')
-    plt.title('Classifier Accuracy Comparison')
+    plt.bar(df_results["model"], df_results["accuracy"], color="skyblue")
+    plt.xlabel("Classifier")
+    plt.ylabel("Accuracy")
+    plt.title("Classifier Accuracy Comparison")
     plt.ylim(0.8, 1.0)  # Set y-axis limit for better visualization of differences
-    plt.xticks(rotation=45, ha='right')
+    plt.xticks(rotation=45, ha="right")
     plt.tight_layout()
     plt.savefig(relpath / "figures" / "classifier_accuracy_comparison.png")
+
+    bar = (
+        alt.Chart(df_results)
+        .mark_bar()
+        .encode(
+            x="model",
+            y="accuracy",
+        )
+        .properties(
+            width=alt.Step(40)  # controls width of bar.
+        )
+    )
+    bar.save(relpath / "figures" / "classifier_accuracy_comparison.html")
+
 
 if __name__ == "__main__":
     main()
