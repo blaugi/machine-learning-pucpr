@@ -1,1 +1,0 @@
-{'clf__C': [0.1, 1, 10], 'clf__kernel': ['rbf', 'linear', 'poly'], 'clf__gamma': ['scale', 'auto']}

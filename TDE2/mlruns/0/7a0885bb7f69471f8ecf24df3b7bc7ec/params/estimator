@@ -1,2 +1,0 @@
-Pipeline(steps=[('scaler', StandardScaler()),
-                ('clf', MLPClassifier(max_iter=1000, random_state=42))])

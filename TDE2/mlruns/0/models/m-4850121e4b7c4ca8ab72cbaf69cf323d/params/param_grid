@@ -1,1 +1,0 @@
-{'clf__n_neighbors': [3, 5, 7, 9], 'clf__weights': ['uniform', 'distance'], 'clf__p': [1, 2]}

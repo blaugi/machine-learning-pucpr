@@ -1,1 +1,0 @@
-[('scaler', StandardScaler()), ('clf', KNeighborsClassifier(n_neighbors=3, weights='distance'))]
