@@ -4,6 +4,7 @@ import pathlib
 import zipfile
 from utils.config import Config
 import altair as alt
+import datetime
 import mlflow
 
 import matplotlib.pyplot as plt
@@ -29,7 +30,9 @@ from utils.feature_extraction import extract_features
 
 RANDOM_STATE = 42
 np.random.seed(RANDOM_STATE)
-mlflow.sklearn.autolog()
+
+experiment_name = f"TDE2_Model_Comparison_{datetime.datetime.now().strftime('%Y%m%d_%H%M')}"
+mlflow.set_experiment(experiment_name)
 
 
 def extract_zip(path_to_zip_file, directory_to_extract_to):
@@ -82,55 +85,77 @@ def main():
 
     results = []
     best_models = {}
+    best_run_id = None
+    run_ids_by_model = {}  
 
     for name, model in models.items():
-        print(f"\n=== {name} ===")
-        grid = param_grids[name]
+        with mlflow.start_run(run_name=f"{name}_complete_evaluation") as run:
+            current_run_id = run.info.run_id
+            run_ids_by_model[name] = current_run_id  # Store run ID for this model
+            print(f"\n=== {name} ===")
+            grid = param_grids[name]
 
-        gs = GridSearchCV(
-            estimator=model,
-            param_grid=grid,
-            scoring="accuracy",
-            cv=5,
-            n_jobs=-1,
-            refit=True,
-            verbose=0,
-            return_train_score=False,
-        )
-        gs.fit(Xval, yval)
+            gs = GridSearchCV(
+                estimator=model,
+                param_grid=grid,
+                scoring="accuracy",
+                cv=5,
+                n_jobs=-1,
+                refit=True,
+                verbose=0,
+                return_train_score=False,
+            )
+            gs.fit(Xval, yval)
 
-        best_models[name] = gs.best_estimator_
-        print("Melhores hiperparâmetros:", gs.best_params_)
+            mlflow.set_tags({"model_type": name, "phase": "complete_evaluation"})
+            mlflow.log_params(gs.best_params_)
+            mlflow.log_metric("best_cv_score", gs.best_score_)
 
-        # Using cross_validation to evaluate the performance
-        cv_scores = cross_val_score(gs.best_estimator_, Xnew, ynew, cv=5)
-        print(
-            "Cross-val (5 folds) média de acurácia:",
-            f"{cv_scores.mean():.4f} (+/- {cv_scores.std():.4f})",
-        )
+            best_models[name] = gs.best_estimator_
+            print("Melhores hiperparâmetros:", gs.best_params_)
 
-        # Predictions based on cross_validation
-        y_pred = cross_val_predict(gs.best_estimator_, Xnew, ynew, cv=5)
+            # Using cross_validation to evaluate the performance
+            cv_scores = cross_val_score(gs.best_estimator_, Xnew, ynew, cv=5)
+            print(
+                "Cross-val (5 folds) média de acurácia:",
+                f"{cv_scores.mean():.4f} (+/- {cv_scores.std():.4f})",
+            )
 
-        acc = accuracy_score(ynew, y_pred)
-        prec = precision_score(ynew, y_pred, average="binary")
-        rec = recall_score(ynew, y_pred, average="binary")
-        f1 = f1_score(ynew, y_pred, average="binary")
+            # Log cross-validation metrics
+            mlflow.log_metric("cv_accuracy_mean", cv_scores.mean())
+            mlflow.log_metric("cv_accuracy_std", cv_scores.std())
 
-        results.append(
-            {
-                "model": name,
-                "accuracy": acc,
-                "precision": prec,
-                "recall": rec,
-                "f1": f1,
-            }
-        )
+            # Predictions based on cross_validation
+            y_pred = cross_val_predict(gs.best_estimator_, Xnew, ynew, cv=5)
+
+            acc = accuracy_score(ynew, y_pred)
+            prec = precision_score(ynew, y_pred, average="weighted")
+            rec = recall_score(ynew, y_pred, average="weighted")
+            f1 = f1_score(ynew, y_pred, average="weighted")
+
+            # Log final evaluation metrics
+            mlflow.log_metrics({
+                "final_accuracy": acc,
+                "final_precision": prec,
+                "final_recall": rec,
+                "final_f1": f1
+            })
+
+            results.append(
+                {
+                    "model": name,
+                    "accuracy": acc,
+                    "precision": prec,
+                    "recall": rec,
+                    "f1": f1,
+                }
+            )
 
     df_results = pd.DataFrame(results)
 
     best_name = df_results.loc[df_results["accuracy"].idxmax()]["model"]
     best_estimator = best_models[best_name]
+    best_run_id = run_ids_by_model[best_name]  # Get run ID for best model
 
     print(
         f"Best Model (accuracy): {best_name} — {df_results.loc[df_results['accuracy'].idxmax()]['accuracy']:.4f}"
@@ -148,6 +173,10 @@ def main():
     disp.plot(values_format="d", cmap=None)
     plt.title(f"Confusion Matrix — {best_name}")
     plt.savefig(relpath / "figures" / "confusion_matrix_best_model.png")
+
+    # Log confusion matrix to best model's run
+    with mlflow.start_run(run_id=best_run_id):
+        mlflow.log_artifact(str(relpath / "figures" / "confusion_matrix_best_model.png"))
 
     print("\nClassification Report (Best model):")
     print(classification_report(ynew, y_pred_best, target_names=target_names))
@@ -174,6 +203,10 @@ def main():
         )
     )
     bar.save(relpath / "figures" / "classifier_accuracy_comparison.html")
+
+    with mlflow.start_run(run_id=best_run_id):
+        mlflow.log_artifact(str(relpath / "figures" / "classifier_accuracy_comparison.png"))
+        mlflow.log_artifact(str(relpath / "figures" / "classifier_accuracy_comparison.html"))
 
 
 if __name__ == "__main__":
