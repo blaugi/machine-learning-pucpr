@@ -49,12 +49,15 @@ class Config:
                 "clf__n_neighbors": [3, 5, 7, 9],
                 "clf__weights": ["uniform", "distance"],
                 "clf__p": [1, 2],
+                "clf__algorithm": ["auto", "ball_tree", "kd_tree", "brute"],
+                "clf__metric": ["euclidean", "manhattan", "minkowski"],
             },
             "DecisionTree": {
                 "criterion": ["gini", "entropy", "log_loss"],
                 "max_depth": [None, 5, 10, 20],
                 "min_samples_split": [2, 5, 10],
                 "min_samples_leaf": [1, 2, 4],
+                "splitter": ["best", "random"],
             },
             "NaiveBayes": {
                 "var_smoothing": [1e-9, 1e-8, 1e-7, 1e-6, 1e-5],
@@ -64,6 +67,7 @@ class Config:
                 "clf__activation": ["relu", "tanh"],
                 "clf__alpha": [1e-4, 1e-3, 1e-2],
                 "clf__learning_rate_init": [1e-3, 1e-2],
+                "clf__solver": ["adam", "sgd", "lbfgs"],
             },
             "SVM": {
                 "clf__C": [0.1, 1, 10],
@@ -73,6 +77,10 @@ class Config:
             "RF": {
                 "n_estimators": [50, 100, 200],
                 "max_depth": [None, 10, 20],
+                "criterion": ["gini", "entropy", "log_loss"],
+                "min_samples_split": [2, 5, 10],
+                "min_samples_leaf": [1, 2, 4],
+                "bootstrap": [True, False],
             },
             "AdaBoost": {
                 "n_estimators": [50, 100, 200],
@@ -81,9 +89,14 @@ class Config:
             "Bagging": {
                 "n_estimators": [50, 100, 200],
                 "max_samples": [0.5, 0.75, 1.0],
+                "max_features": [0.5, 0.75, 1.0],
+                "bootstrap": [True, False],
+                "bootstrap_features": [True, False],
             },
             "Xgboost": {
                 "n_estimators": [50, 100, 200],
                 "learning_rate": [0.1, 0.5, 1.0],
+                "max_depth": [3, 6, 9, 12],
+                "colsample_bytree": [0.6, 0.8, 1.0],
             },
         }
