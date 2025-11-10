@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/bb5dec44777146faa611bb4f155979f3/artifacts
+deleted_time: 1762301245572
+end_time: 1762296850301
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: bb5dec44777146faa611bb4f155979f3
+run_name: nosy-croc-136
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762296776814
+status: 3
+tags: []
+user_id: blau

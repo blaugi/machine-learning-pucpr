@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/c7a480866f214048a6f672e2867147b6/artifacts
+deleted_time: 1762301245750
+end_time: 1762297206643
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: c7a480866f214048a6f672e2867147b6
+run_name: dashing-horse-633
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297195518
+status: 3
+tags: []
+user_id: blau

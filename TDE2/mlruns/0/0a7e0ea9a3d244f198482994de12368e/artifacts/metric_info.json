@@ -1,0 +1,3 @@
+{
+  "BaggingClassifier_score_X_test": "BaggingClassifier.score(X=X_test, y=y_test)"
+}

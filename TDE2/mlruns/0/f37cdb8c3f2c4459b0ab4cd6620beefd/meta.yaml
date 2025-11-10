@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/f37cdb8c3f2c4459b0ab4cd6620beefd/artifacts
+deleted_time: 1762301266789
+end_time: 1762295028048
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: f37cdb8c3f2c4459b0ab4cd6620beefd
+run_name: bright-ape-873
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295026711
+status: 3
+tags: []
+user_id: blau

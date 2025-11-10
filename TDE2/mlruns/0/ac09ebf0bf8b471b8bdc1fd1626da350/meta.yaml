@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/ac09ebf0bf8b471b8bdc1fd1626da350/artifacts
+deleted_time: 1762301245600
+end_time: 1762296607849
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ac09ebf0bf8b471b8bdc1fd1626da350
+run_name: luxuriant-bee-755
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762296552250
+status: 3
+tags: []
+user_id: blau

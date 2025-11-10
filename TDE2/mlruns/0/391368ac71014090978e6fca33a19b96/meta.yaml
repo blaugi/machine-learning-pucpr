@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/391368ac71014090978e6fca33a19b96/artifacts
+deleted_time: 1762301096237
+end_time: 1762297279305
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 391368ac71014090978e6fca33a19b96
+run_name: bedecked-boar-114
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297277716
+status: 3
+tags: []
+user_id: blau

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/923c0561df7f42b9899c3579817175cd/artifacts
+deleted_time: 1762301266494
+end_time: 1762294299619
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 923c0561df7f42b9899c3579817175cd
+run_name: thundering-owl-947
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762294298323
+status: 3
+tags: []
+user_id: blau

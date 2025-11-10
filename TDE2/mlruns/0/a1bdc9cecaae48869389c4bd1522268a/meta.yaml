@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/a1bdc9cecaae48869389c4bd1522268a/artifacts
+deleted_time: 1762301258523
+end_time: 1762295821332
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: a1bdc9cecaae48869389c4bd1522268a
+run_name: delicate-goose-729
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295819781
+status: 3
+tags: []
+user_id: blau

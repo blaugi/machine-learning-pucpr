@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/9da86ece26354237b3c98ed70ee2a0d9/artifacts
+deleted_time: 1762301258476
+end_time: 1762295828013
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 9da86ece26354237b3c98ed70ee2a0d9
+run_name: bittersweet-calf-851
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295826156
+status: 3
+tags: []
+user_id: blau

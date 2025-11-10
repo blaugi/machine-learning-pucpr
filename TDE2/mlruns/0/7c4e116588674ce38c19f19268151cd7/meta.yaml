@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/7c4e116588674ce38c19f19268151cd7/artifacts
+deleted_time: 1762301245945
+end_time: 1762295863756
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 7c4e116588674ce38c19f19268151cd7
+run_name: likeable-bear-334
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295861334
+status: 3
+tags: []
+user_id: blau

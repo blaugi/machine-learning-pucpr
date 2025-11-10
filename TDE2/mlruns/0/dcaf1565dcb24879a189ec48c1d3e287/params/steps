@@ -1,0 +1,1 @@
+[('scaler', StandardScaler()), ('clf', SVC(C=0.1, kernel='linear', probability=True, random_state=42))]

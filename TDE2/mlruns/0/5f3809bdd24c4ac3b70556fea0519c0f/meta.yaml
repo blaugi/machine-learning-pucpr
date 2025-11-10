@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/5f3809bdd24c4ac3b70556fea0519c0f/artifacts
+deleted_time: 1762301270716
+end_time: 1762294295618
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 5f3809bdd24c4ac3b70556fea0519c0f
+run_name: melodic-shoat-944
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762294291103
+status: 3
+tags: []
+user_id: blau

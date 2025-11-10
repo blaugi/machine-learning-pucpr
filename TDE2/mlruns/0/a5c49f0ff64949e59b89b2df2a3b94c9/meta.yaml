@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/a5c49f0ff64949e59b89b2df2a3b94c9/artifacts
+deleted_time: 1762301245903
+end_time: 1762295905330
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: a5c49f0ff64949e59b89b2df2a3b94c9
+run_name: enchanting-frog-376
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295880479
+status: 3
+tags: []
+user_id: blau

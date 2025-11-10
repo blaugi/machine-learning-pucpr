@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/e309cd98a6304a9999bc91096e2ab158/artifacts
+deleted_time: 1762301095965
+end_time: 1762297316083
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: e309cd98a6304a9999bc91096e2ab158
+run_name: upset-lamb-917
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297313585
+status: 3
+tags: []
+user_id: blau

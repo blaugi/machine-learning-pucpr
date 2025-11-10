@@ -1,0 +1,3 @@
+{
+  "GaussianNB_score_X_test": "GaussianNB.score(X=X_test, y=y_test)"
+}

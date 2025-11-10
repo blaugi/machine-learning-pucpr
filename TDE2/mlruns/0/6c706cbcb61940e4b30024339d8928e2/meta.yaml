@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/6c706cbcb61940e4b30024339d8928e2/artifacts
+deleted_time: 1762301266788
+end_time: 1762295582319
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 6c706cbcb61940e4b30024339d8928e2
+run_name: industrious-gull-985
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295578008
+status: 3
+tags: []
+user_id: blau

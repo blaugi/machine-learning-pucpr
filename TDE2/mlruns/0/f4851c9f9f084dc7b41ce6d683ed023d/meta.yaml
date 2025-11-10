@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/f4851c9f9f084dc7b41ce6d683ed023d/artifacts
+deleted_time: 1762301245528
+end_time: 1762296209176
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: f4851c9f9f084dc7b41ce6d683ed023d
+run_name: charming-hound-322
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762296153379
+status: 3
+tags: []
+user_id: blau

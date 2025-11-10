@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/cd50f7e36f81479da5e42897b1a009df/artifacts
+deleted_time: 1762301266675
+end_time: 1762295018656
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: cd50f7e36f81479da5e42897b1a009df
+run_name: worried-sponge-254
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295017358
+status: 3
+tags: []
+user_id: blau

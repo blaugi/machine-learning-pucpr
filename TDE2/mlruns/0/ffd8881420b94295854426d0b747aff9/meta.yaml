@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/ffd8881420b94295854426d0b747aff9/artifacts
+deleted_time: 1762301266640
+end_time: 1762295753208
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ffd8881420b94295854426d0b747aff9
+run_name: capricious-crane-976
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295742264
+status: 3
+tags: []
+user_id: blau

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/514103c6d71e404c8dcb5c0fe0fb2792/artifacts
+deleted_time: 1762301258738
+end_time: 1762295775833
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 514103c6d71e404c8dcb5c0fe0fb2792
+run_name: amusing-dog-956
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295773371
+status: 3
+tags: []
+user_id: blau

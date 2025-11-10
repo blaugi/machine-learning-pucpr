@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/e4399a7701314603832e44bee2b84b6e/artifacts
+deleted_time: 1762301270715
+end_time: 1762295014670
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: e4399a7701314603832e44bee2b84b6e
+run_name: unleashed-fish-207
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295010423
+status: 3
+tags: []
+user_id: blau

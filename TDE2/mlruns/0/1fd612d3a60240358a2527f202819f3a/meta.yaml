@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/1fd612d3a60240358a2527f202819f3a/artifacts
+deleted_time: 1762301095935
+end_time: 1762297320934
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 1fd612d3a60240358a2527f202819f3a
+run_name: mercurial-steed-63
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297318530
+status: 3
+tags: []
+user_id: blau

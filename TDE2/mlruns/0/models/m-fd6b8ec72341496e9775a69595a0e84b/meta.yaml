@@ -1,0 +1,10 @@
+artifact_location: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/models/m-fd6b8ec72341496e9775a69595a0e84b/artifacts
+creation_timestamp: 1762297669323
+experiment_id: '0'
+last_updated_timestamp: 1762297670428
+model_id: m-fd6b8ec72341496e9775a69595a0e84b
+model_type: null
+name: best_estimator
+source_run_id: 0bc69b10ec774530acb6c7ec0e22602d
+status: 2
+status_message: null

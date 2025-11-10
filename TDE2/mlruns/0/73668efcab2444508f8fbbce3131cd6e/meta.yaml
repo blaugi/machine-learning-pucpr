@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/73668efcab2444508f8fbbce3131cd6e/artifacts
+deleted_time: 1762301095489
+end_time: 1762298482596
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 73668efcab2444508f8fbbce3131cd6e
+run_name: stately-worm-944
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762298480633
+status: 3
+tags: []
+user_id: blau

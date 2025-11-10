@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/285bbeb4d75d454aa8dd4d21a30a40a3/artifacts
+deleted_time: 1762301266478
+end_time: 1762294296977
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 285bbeb4d75d454aa8dd4d21a30a40a3
+run_name: vaunted-auk-229
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762294295668
+status: 3
+tags: []
+user_id: blau

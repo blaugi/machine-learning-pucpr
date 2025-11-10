@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/2c2d5084606940378ecec7df1fae8712/artifacts
+deleted_time: 1762301095600
+end_time: 1762297287676
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 2c2d5084606940378ecec7df1fae8712
+run_name: fun-worm-742
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297284290
+status: 3
+tags: []
+user_id: blau

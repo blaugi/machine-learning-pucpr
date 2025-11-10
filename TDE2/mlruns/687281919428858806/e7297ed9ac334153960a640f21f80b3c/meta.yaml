@@ -1,0 +1,14 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/687281919428858806/e7297ed9ac334153960a640f21f80b3c/artifacts
+end_time: 1762563082984
+entry_point_name: ''
+experiment_id: '687281919428858806'
+lifecycle_stage: active
+run_id: e7297ed9ac334153960a640f21f80b3c
+run_name: RF_complete_evaluation
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762563069022
+status: 3
+tags: []
+user_id: blau

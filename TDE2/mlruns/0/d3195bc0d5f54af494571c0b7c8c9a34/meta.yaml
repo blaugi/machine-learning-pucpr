@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/d3195bc0d5f54af494571c0b7c8c9a34/artifacts
+deleted_time: 1762301245646
+end_time: 1762296494974
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: d3195bc0d5f54af494571c0b7c8c9a34
+run_name: gifted-grub-841
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762296433141
+status: 3
+tags: []
+user_id: blau

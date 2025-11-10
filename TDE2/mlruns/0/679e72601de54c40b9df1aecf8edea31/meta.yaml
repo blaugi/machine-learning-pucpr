@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/679e72601de54c40b9df1aecf8edea31/artifacts
+deleted_time: 1762301245337
+end_time: 1762295856289
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 679e72601de54c40b9df1aecf8edea31
+run_name: puzzled-moth-978
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295851969
+status: 3
+tags: []
+user_id: blau

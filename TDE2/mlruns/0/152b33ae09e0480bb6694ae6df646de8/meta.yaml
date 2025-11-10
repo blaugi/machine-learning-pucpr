@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/152b33ae09e0480bb6694ae6df646de8/artifacts
+deleted_time: 1762301258695
+end_time: 1762295782540
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 152b33ae09e0480bb6694ae6df646de8
+run_name: abrasive-seal-53
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295781227
+status: 3
+tags: []
+user_id: blau

@@ -1,0 +1,10 @@
+artifact_location: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/models/m-77bff29bfb6543e4bfecd80866ce7100/artifacts
+creation_timestamp: 1762297181783
+experiment_id: '0'
+last_updated_timestamp: 1762297182910
+model_id: m-77bff29bfb6543e4bfecd80866ce7100
+model_type: null
+name: model
+source_run_id: 33fdc9c168da402c88877bafa76e31cc
+status: 2
+status_message: null

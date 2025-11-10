@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/31c7c1fc91e540dfa87af42dc7265610/artifacts
+deleted_time: 1762301245881
+end_time: 1762295851947
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 31c7c1fc91e540dfa87af42dc7265610
+run_name: luminous-bear-663
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295850136
+status: 3
+tags: []
+user_id: blau

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/93d975ff86604a64baa73cfbb86a66aa/artifacts
+deleted_time: 1762301266583
+end_time: 1762295753208
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 93d975ff86604a64baa73cfbb86a66aa
+run_name: overjoyed-crab-255
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295742264
+status: 3
+tags: []
+user_id: blau

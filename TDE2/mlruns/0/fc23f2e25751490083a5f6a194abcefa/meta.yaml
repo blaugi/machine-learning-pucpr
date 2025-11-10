@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/fc23f2e25751490083a5f6a194abcefa/artifacts
+deleted_time: 1762301266533
+end_time: 1762295775789
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: fc23f2e25751490083a5f6a194abcefa
+run_name: angry-squid-600
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295773371
+status: 3
+tags: []
+user_id: blau

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/049bc771af20461da249e37989a2394e/artifacts
+deleted_time: 1762301258550
+end_time: 1762295819775
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 049bc771af20461da249e37989a2394e
+run_name: fun-snipe-875
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295818123
+status: 3
+tags: []
+user_id: blau

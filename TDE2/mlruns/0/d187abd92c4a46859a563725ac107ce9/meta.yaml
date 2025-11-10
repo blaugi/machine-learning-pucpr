@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/d187abd92c4a46859a563725ac107ce9/artifacts
+deleted_time: 1762301245287
+end_time: 1762297185817
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: d187abd92c4a46859a563725ac107ce9
+run_name: receptive-gull-974
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297184501
+status: 3
+tags: []
+user_id: blau

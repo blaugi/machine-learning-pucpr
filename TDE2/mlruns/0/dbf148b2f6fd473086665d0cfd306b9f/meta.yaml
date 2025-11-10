@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/dbf148b2f6fd473086665d0cfd306b9f/artifacts
+deleted_time: 1762301245877
+end_time: 1762295929901
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: dbf148b2f6fd473086665d0cfd306b9f
+run_name: silent-robin-227
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295905334
+status: 3
+tags: []
+user_id: blau

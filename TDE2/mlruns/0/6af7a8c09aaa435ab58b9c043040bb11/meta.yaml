@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/6af7a8c09aaa435ab58b9c043040bb11/artifacts
+deleted_time: 1762301095679
+end_time: 1762297564952
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 6af7a8c09aaa435ab58b9c043040bb11
+run_name: angry-slug-586
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297539573
+status: 3
+tags: []
+user_id: blau

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/733c82e8a46a485698b23924ef21494c/artifacts
+deleted_time: 1762301266453
+end_time: 1762295812936
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 733c82e8a46a485698b23924ef21494c
+run_name: zealous-squirrel-124
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295789146
+status: 3
+tags: []
+user_id: blau

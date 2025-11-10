@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/52023dbafe62475b943faec48a56a690/artifacts
+deleted_time: 1762301266636
+end_time: 1762295728619
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 52023dbafe62475b943faec48a56a690
+run_name: traveling-cod-653
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295724351
+status: 3
+tags: []
+user_id: blau

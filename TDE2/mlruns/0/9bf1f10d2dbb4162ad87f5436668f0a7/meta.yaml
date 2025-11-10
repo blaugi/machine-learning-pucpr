@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/9bf1f10d2dbb4162ad87f5436668f0a7/artifacts
+deleted_time: 1762301258574
+end_time: 1762295593135
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 9bf1f10d2dbb4162ad87f5436668f0a7
+run_name: selective-mule-469
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295591763
+status: 3
+tags: []
+user_id: blau

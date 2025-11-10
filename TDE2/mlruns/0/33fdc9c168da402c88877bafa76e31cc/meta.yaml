@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/33fdc9c168da402c88877bafa76e31cc/artifacts
+deleted_time: 1762301245336
+end_time: 1762297183131
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 33fdc9c168da402c88877bafa76e31cc
+run_name: likeable-ox-386
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297181759
+status: 3
+tags: []
+user_id: blau

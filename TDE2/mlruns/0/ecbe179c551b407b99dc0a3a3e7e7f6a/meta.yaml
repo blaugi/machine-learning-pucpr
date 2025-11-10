@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/ecbe179c551b407b99dc0a3a3e7e7f6a/artifacts
+deleted_time: 1762301245984
+end_time: 1762295870940
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ecbe179c551b407b99dc0a3a3e7e7f6a
+run_name: enthused-bat-716
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295868554
+status: 3
+tags: []
+user_id: blau

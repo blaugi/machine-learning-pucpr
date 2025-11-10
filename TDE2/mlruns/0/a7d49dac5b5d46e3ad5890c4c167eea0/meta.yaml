@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/a7d49dac5b5d46e3ad5890c4c167eea0/artifacts
+deleted_time: 1762301095482
+end_time: 1762298486461
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: a7d49dac5b5d46e3ad5890c4c167eea0
+run_name: able-foal-844
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762298484568
+status: 3
+tags: []
+user_id: blau

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/12d748cab68c43dabe496627ce92fcd5/artifacts
+deleted_time: 1762301096144
+end_time: 1762297241762
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 12d748cab68c43dabe496627ce92fcd5
+run_name: monumental-crane-186
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297240414
+status: 3
+tags: []
+user_id: blau

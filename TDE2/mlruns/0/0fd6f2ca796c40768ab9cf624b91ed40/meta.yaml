@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/0fd6f2ca796c40768ab9cf624b91ed40/artifacts
+deleted_time: 1762301096220
+end_time: 1762297272406
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 0fd6f2ca796c40768ab9cf624b91ed40
+run_name: mysterious-sloth-700
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297270736
+status: 3
+tags: []
+user_id: blau

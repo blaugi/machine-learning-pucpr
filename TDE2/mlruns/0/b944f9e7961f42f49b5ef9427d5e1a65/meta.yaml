@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/b944f9e7961f42f49b5ef9427d5e1a65/artifacts
+deleted_time: 1762301258765
+end_time: 1762295771224
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: b944f9e7961f42f49b5ef9427d5e1a65
+run_name: thundering-snail-281
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295769225
+status: 3
+tags: []
+user_id: blau

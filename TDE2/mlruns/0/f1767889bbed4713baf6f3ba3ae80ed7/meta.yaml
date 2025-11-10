@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/f1767889bbed4713baf6f3ba3ae80ed7/artifacts
+deleted_time: 1762301245449
+end_time: 1762297189904
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: f1767889bbed4713baf6f3ba3ae80ed7
+run_name: gregarious-cow-816
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297188578
+status: 3
+tags: []
+user_id: blau

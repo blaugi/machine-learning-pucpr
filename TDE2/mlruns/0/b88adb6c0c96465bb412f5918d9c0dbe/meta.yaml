@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/b88adb6c0c96465bb412f5918d9c0dbe/artifacts
+deleted_time: 1762301096042
+end_time: 1762297304765
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: b88adb6c0c96465bb412f5918d9c0dbe
+run_name: colorful-bass-967
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297302941
+status: 3
+tags: []
+user_id: blau

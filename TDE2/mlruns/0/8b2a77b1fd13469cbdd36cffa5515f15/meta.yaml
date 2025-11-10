@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/8b2a77b1fd13469cbdd36cffa5515f15/artifacts
+deleted_time: 1762301266638
+end_time: 1762294308989
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 8b2a77b1fd13469cbdd36cffa5515f15
+run_name: gifted-panda-170
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762294307682
+status: 3
+tags: []
+user_id: blau

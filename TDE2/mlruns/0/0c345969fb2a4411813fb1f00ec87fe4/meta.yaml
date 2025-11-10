@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/0c345969fb2a4411813fb1f00ec87fe4/artifacts
+deleted_time: 1762301266789
+end_time: 1762295582319
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 0c345969fb2a4411813fb1f00ec87fe4
+run_name: amazing-stork-417
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295578008
+status: 3
+tags: []
+user_id: blau

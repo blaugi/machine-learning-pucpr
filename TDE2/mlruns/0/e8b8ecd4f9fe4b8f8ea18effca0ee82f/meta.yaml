@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/e8b8ecd4f9fe4b8f8ea18effca0ee82f/artifacts
+deleted_time: 1762301095756
+end_time: 1762297310874
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: e8b8ecd4f9fe4b8f8ea18effca0ee82f
+run_name: skillful-chimp-102
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297306694
+status: 3
+tags: []
+user_id: blau

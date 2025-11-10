@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/1b6868b4586747cbb2f003e07d335411/artifacts
+deleted_time: 1762301245340
+end_time: 1762297184489
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 1b6868b4586747cbb2f003e07d335411
+run_name: aged-snail-41
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297183144
+status: 3
+tags: []
+user_id: blau

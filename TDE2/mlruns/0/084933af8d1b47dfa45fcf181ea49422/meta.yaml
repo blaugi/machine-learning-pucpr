@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/084933af8d1b47dfa45fcf181ea49422/artifacts
+deleted_time: 1762301245750
+end_time: 1762296128552
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 084933af8d1b47dfa45fcf181ea49422
+run_name: stately-ape-570
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762296103721
+status: 3
+tags: []
+user_id: blau

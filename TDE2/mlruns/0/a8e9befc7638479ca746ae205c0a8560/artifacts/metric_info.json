@@ -1,0 +1,3 @@
+{
+  "AdaBoostClassifier_score_X_test": "AdaBoostClassifier.score(X=X_test, y=y_test)"
+}

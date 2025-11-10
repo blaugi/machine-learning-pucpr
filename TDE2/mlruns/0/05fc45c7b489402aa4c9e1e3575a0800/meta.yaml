@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/05fc45c7b489402aa4c9e1e3575a0800/artifacts
+deleted_time: 1762301096205
+end_time: 1762297284281
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 05fc45c7b489402aa4c9e1e3575a0800
+run_name: polite-duck-258
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297282658
+status: 3
+tags: []
+user_id: blau

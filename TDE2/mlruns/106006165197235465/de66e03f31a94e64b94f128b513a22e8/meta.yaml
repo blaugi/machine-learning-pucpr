@@ -1,0 +1,14 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/106006165197235465/de66e03f31a94e64b94f128b513a22e8/artifacts
+end_time: 1762568218580
+entry_point_name: ''
+experiment_id: '106006165197235465'
+lifecycle_stage: active
+run_id: de66e03f31a94e64b94f128b513a22e8
+run_name: SVM_complete_evaluation
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762565835787
+status: 3
+tags: []
+user_id: blau

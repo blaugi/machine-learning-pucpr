@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/d441aa9b88f545c8a021503833df0456/artifacts
+deleted_time: 1762301266692
+end_time: 1762295728619
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: d441aa9b88f545c8a021503833df0456
+run_name: nervous-fly-569
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295724351
+status: 3
+tags: []
+user_id: blau

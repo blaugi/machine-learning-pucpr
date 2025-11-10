@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/02630007a8a24ef29a0686d00c5efa0c/artifacts
+deleted_time: 1762301266445
+end_time: 1762295833018
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 02630007a8a24ef29a0686d00c5efa0c
+run_name: upset-moth-822
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295829649
+status: 3
+tags: []
+user_id: blau

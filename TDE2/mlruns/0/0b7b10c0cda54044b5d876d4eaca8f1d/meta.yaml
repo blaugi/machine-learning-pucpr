@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/0b7b10c0cda54044b5d876d4eaca8f1d/artifacts
+deleted_time: 1762301266586
+end_time: 1762295753208
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 0b7b10c0cda54044b5d876d4eaca8f1d
+run_name: abundant-kite-373
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295742264
+status: 3
+tags: []
+user_id: blau

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/26113e496a504842be86c30359d60bef/artifacts
+deleted_time: 1762301096212
+end_time: 1762297282651
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 26113e496a504842be86c30359d60bef
+run_name: auspicious-hog-345
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297281010
+status: 3
+tags: []
+user_id: blau

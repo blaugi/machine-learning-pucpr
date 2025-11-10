@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/6eb7a4662ee1494d9d319a5efdc17612/artifacts
+deleted_time: 1762301245946
+end_time: 1762295875670
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 6eb7a4662ee1494d9d319a5efdc17612
+run_name: sedate-donkey-519
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295873327
+status: 3
+tags: []
+user_id: blau

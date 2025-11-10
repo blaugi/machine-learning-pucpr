@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/8ea48121db184fee8ca0cee4a9cc21f7/artifacts
+deleted_time: 1762301095857
+end_time: 1762297333068
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 8ea48121db184fee8ca0cee4a9cc21f7
+run_name: calm-snake-402
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297330621
+status: 3
+tags: []
+user_id: blau

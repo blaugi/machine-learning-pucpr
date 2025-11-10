@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/9fa9c6a48d444ea78d789c101cf4313d/artifacts
+deleted_time: 1762301245626
+end_time: 1762296552152
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 9fa9c6a48d444ea78d789c101cf4313d
+run_name: fun-robin-349
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762296495118
+status: 3
+tags: []
+user_id: blau

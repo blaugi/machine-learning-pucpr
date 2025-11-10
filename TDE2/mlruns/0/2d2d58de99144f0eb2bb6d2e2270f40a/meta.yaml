@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/2d2d58de99144f0eb2bb6d2e2270f40a/artifacts
+deleted_time: 1762301245693
+end_time: 1762296321344
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 2d2d58de99144f0eb2bb6d2e2270f40a
+run_name: mercurial-sponge-867
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762296265568
+status: 3
+tags: []
+user_id: blau

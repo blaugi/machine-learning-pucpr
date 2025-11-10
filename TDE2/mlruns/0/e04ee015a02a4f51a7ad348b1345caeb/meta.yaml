@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/e04ee015a02a4f51a7ad348b1345caeb/artifacts
+deleted_time: 1762301266586
+end_time: 1762294303563
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: e04ee015a02a4f51a7ad348b1345caeb
+run_name: fortunate-shrew-181
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762294302261
+status: 3
+tags: []
+user_id: blau

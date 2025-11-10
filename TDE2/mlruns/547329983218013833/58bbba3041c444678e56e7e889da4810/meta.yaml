@@ -1,0 +1,14 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/547329983218013833/58bbba3041c444678e56e7e889da4810/artifacts
+end_time: 1762301273279
+entry_point_name: ''
+experiment_id: '547329983218013833'
+lifecycle_stage: active
+run_id: 58bbba3041c444678e56e7e889da4810
+run_name: DecisionTree_complete_evaluation
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762301256643
+status: 3
+tags: []
+user_id: blau

@@ -1,0 +1,6 @@
+destination_id: m-cf350e21b91743d3ba50b589e547028e
+destination_type: MODEL_OUTPUT
+source_id: m-cf350e21b91743d3ba50b589e547028e
+source_type: RUN_OUTPUT
+step: 0
+tags: {}

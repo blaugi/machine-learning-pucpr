@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/095c1954823b4dcbb58f072017fe035b/artifacts
+deleted_time: 1762301245467
+end_time: 1762297188564
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 095c1954823b4dcbb58f072017fe035b
+run_name: languid-slug-488
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297187173
+status: 3
+tags: []
+user_id: blau

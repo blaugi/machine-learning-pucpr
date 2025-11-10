@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/7a2880d638c8491ea5aa94c3385ba5d2/artifacts
+deleted_time: 1762301245820
+end_time: 1762297229493
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 7a2880d638c8491ea5aa94c3385ba5d2
+run_name: gregarious-fox-199
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297227001
+status: 3
+tags: []
+user_id: blau

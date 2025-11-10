@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/07435d6ae9f14a77858abb07e401fb39/artifacts
+deleted_time: 1762301258736
+end_time: 1762295735393
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 07435d6ae9f14a77858abb07e401fb39
+run_name: loud-frog-836
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295734063
+status: 3
+tags: []
+user_id: blau

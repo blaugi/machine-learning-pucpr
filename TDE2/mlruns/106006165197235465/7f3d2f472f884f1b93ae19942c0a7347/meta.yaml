@@ -1,0 +1,14 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/106006165197235465/7f3d2f472f884f1b93ae19942c0a7347/artifacts
+end_time: 1762566974859
+entry_point_name: ''
+experiment_id: '106006165197235465'
+lifecycle_stage: active
+run_id: 7f3d2f472f884f1b93ae19942c0a7347
+run_name: Bagging_complete_evaluation
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762566272989
+status: 3
+tags: []
+user_id: blau

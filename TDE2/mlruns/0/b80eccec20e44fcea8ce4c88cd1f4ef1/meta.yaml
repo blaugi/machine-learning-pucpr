@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/b80eccec20e44fcea8ce4c88cd1f4ef1/artifacts
+deleted_time: 1762301258475
+end_time: 1762295824486
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: b80eccec20e44fcea8ce4c88cd1f4ef1
+run_name: funny-owl-501
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295822906
+status: 3
+tags: []
+user_id: blau

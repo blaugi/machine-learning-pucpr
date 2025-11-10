@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/ca2b8350ac534baeb7d80f3b65e2fee9/artifacts
+deleted_time: 1762301266493
+end_time: 1762295775789
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ca2b8350ac534baeb7d80f3b65e2fee9
+run_name: hilarious-fawn-557
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295773371
+status: 3
+tags: []
+user_id: blau

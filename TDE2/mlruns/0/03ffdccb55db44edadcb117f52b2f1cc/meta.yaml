@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/03ffdccb55db44edadcb117f52b2f1cc/artifacts
+deleted_time: 1762301245468
+end_time: 1762296209176
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 03ffdccb55db44edadcb117f52b2f1cc
+run_name: adorable-perch-857
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762296153379
+status: 3
+tags: []
+user_id: blau

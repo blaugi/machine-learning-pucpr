@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/b2fd8a67a9614edc89934184c804f417/artifacts
+deleted_time: 1762301266533
+end_time: 1762294302247
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: b2fd8a67a9614edc89934184c804f417
+run_name: sincere-stoat-990
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762294300935
+status: 3
+tags: []
+user_id: blau

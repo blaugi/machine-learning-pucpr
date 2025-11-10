@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/64bdee854aee4d88824141582c4632e1/artifacts
+deleted_time: 1762301258445
+end_time: 1762295844456
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 64bdee854aee4d88824141582c4632e1
+run_name: abundant-mule-900
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295842603
+status: 3
+tags: []
+user_id: blau

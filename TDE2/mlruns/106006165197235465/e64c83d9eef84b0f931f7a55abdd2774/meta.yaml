@@ -1,0 +1,14 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/106006165197235465/e64c83d9eef84b0f931f7a55abdd2774/artifacts
+end_time: 1762565741930
+entry_point_name: ''
+experiment_id: '106006165197235465'
+lifecycle_stage: active
+run_id: e64c83d9eef84b0f931f7a55abdd2774
+run_name: NaiveBayes_complete_evaluation
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762565741611
+status: 3
+tags: []
+user_id: blau

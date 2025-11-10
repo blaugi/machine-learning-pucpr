@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/2ae8bc1300d34ba9ab65ffcf6900b4a0/artifacts
+deleted_time: 1762301258762
+end_time: 1762295773365
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 2ae8bc1300d34ba9ab65ffcf6900b4a0
+run_name: thundering-shark-378
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295771228
+status: 3
+tags: []
+user_id: blau

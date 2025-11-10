@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/43f3687ebc6043bb8b6747760b3cdfb1/artifacts
+deleted_time: 1762301258453
+end_time: 1762295829637
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 43f3687ebc6043bb8b6747760b3cdfb1
+run_name: intelligent-frog-848
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295828021
+status: 3
+tags: []
+user_id: blau

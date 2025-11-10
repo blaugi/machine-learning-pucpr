@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/13b24dbe06d24d029f8d743d788bffa0/artifacts
+deleted_time: 1762301258689
+end_time: 1762295785175
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 13b24dbe06d24d029f8d743d788bffa0
+run_name: enchanting-fox-634
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295783864
+status: 3
+tags: []
+user_id: blau

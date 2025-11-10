@@ -1,0 +1,14 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/106006165197235465/d62728517ca446589633804da375e35b/artifacts
+end_time: 1762568215554
+entry_point_name: ''
+experiment_id: '106006165197235465'
+lifecycle_stage: active
+run_id: d62728517ca446589633804da375e35b
+run_name: Xgboost_complete_evaluation
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762566974860
+status: 3
+tags: []
+user_id: blau

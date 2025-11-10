@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/376e3aec79f34ae187806969cf8f7835/artifacts
+deleted_time: 1762301245805
+end_time: 1762297229493
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 376e3aec79f34ae187806969cf8f7835
+run_name: colorful-owl-559
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297227001
+status: 3
+tags: []
+user_id: blau

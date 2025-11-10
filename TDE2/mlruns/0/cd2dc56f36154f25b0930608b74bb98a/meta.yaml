@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/cd2dc56f36154f25b0930608b74bb98a/artifacts
+deleted_time: 1762301245393
+end_time: 1762297210691
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: cd2dc56f36154f25b0930608b74bb98a
+run_name: stately-penguin-484
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762297208733
+status: 3
+tags: []
+user_id: blau

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/043c6c4eb44a4807bb5ad2375dde4eb3/artifacts
+deleted_time: 1762301266589
+end_time: 1762295753208
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 043c6c4eb44a4807bb5ad2375dde4eb3
+run_name: enchanting-ram-89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295742264
+status: 3
+tags: []
+user_id: blau

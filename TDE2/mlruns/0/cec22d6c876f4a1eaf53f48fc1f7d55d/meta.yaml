@@ -1,0 +1,15 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/0/cec22d6c876f4a1eaf53f48fc1f7d55d/artifacts
+deleted_time: 1762301266745
+end_time: 1762295695231
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: cec22d6c876f4a1eaf53f48fc1f7d55d
+run_name: dashing-boar-676
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762295690902
+status: 3
+tags: []
+user_id: blau

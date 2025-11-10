@@ -1,0 +1,14 @@
+artifact_uri: file:///home/blau/projects/machine-learning-pucpr/TDE2/mlruns/687281919428858806/bdabb40271ef49c0af787341ef20bdab/artifacts
+end_time: 1762563356299
+entry_point_name: ''
+experiment_id: '687281919428858806'
+lifecycle_stage: active
+run_id: bdabb40271ef49c0af787341ef20bdab
+run_name: AdaBoost_complete_evaluation
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762563082985
+status: 3
+tags: []
+user_id: blau
