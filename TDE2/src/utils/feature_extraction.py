@@ -29,6 +29,7 @@ def extract_features():
 
     X_deep = []
     y = []
+    paths = []  # List to store file paths
 
     for (class_folder, instance_files), classe in zip(file_dict.items(), range(len(file_dict))):
         for i in range(len(instance_files)):
@@ -36,6 +37,7 @@ def extract_features():
                 str(os.path.join(class_folder, instance_files[i]))
             )
             y.append(classe)
+            paths.append(file_name)  # Append file path
             
             imagem = cv2.imread(file_name)
             img = cv2.resize(imagem, (W, H))
@@ -60,3 +62,7 @@ def extract_features():
     df_class = pd.DataFrame(y)
     print(f"Saving labels to {csv_base  / 'y_im.csv'}")
     df_class.to_csv(csv_base/ "y_im.csv", header=False, index=False)
+
+    df_paths = pd.DataFrame(paths)
+    print(f"Saving paths to {csv_base / 'paths_im.csv'}")
+    df_paths.to_csv(csv_base / "paths_im.csv", header=False, index=False)

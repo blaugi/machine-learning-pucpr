@@ -19,29 +19,29 @@ RANDOM_STATE = 42
 class Config:
     class Models:
         models = {
-            "KNN": Pipeline(
-                [("scaler", StandardScaler()), ("clf", KNeighborsClassifier())]
-            ),
-            "DecisionTree": DecisionTreeClassifier(random_state=RANDOM_STATE),
-            "NaiveBayes": GaussianNB(),
-            "MLP": Pipeline(
-                [
-                    ("scaler", StandardScaler()),
-                    ("clf", MLPClassifier(max_iter=1000, random_state=RANDOM_STATE)),
-                ]
-            ),
+            # "KNN": Pipeline(
+            #     [("scaler", StandardScaler()), ("clf", KNeighborsClassifier())]
+            # ),
+            # "DecisionTree": DecisionTreeClassifier(random_state=RANDOM_STATE),
+            # "NaiveBayes": GaussianNB(),
+            # "MLP": Pipeline(
+            #     [
+            #         ("scaler", StandardScaler()),
+            #         ("clf", MLPClassifier(max_iter=1000, random_state=RANDOM_STATE)),
+            #     ]
+            # ),
             "SVM": Pipeline(
                 [
                     ("scaler", StandardScaler()),
                     ("clf", SVC(probability=True, random_state=RANDOM_STATE)),
                 ]
             ),
-            "RF": RandomForestClassifier(random_state=RANDOM_STATE),
-            "AdaBoost": AdaBoostClassifier(random_state=RANDOM_STATE),
-            "Bagging": BaggingClassifier(random_state=RANDOM_STATE),
-            "Xgboost": xgb.XGBClassifier(
-                objective="binary:logistic", random_state=RANDOM_STATE
-            ),
+            # "RF": RandomForestClassifier(random_state=RANDOM_STATE),
+            # "AdaBoost": AdaBoostClassifier(random_state=RANDOM_STATE),
+            # "Bagging": BaggingClassifier(random_state=RANDOM_STATE),
+            # "Xgboost": xgb.XGBClassifier(
+            #     objective="binary:logistic", random_state=RANDOM_STATE
+            # ),
         }
 
         param_grids = {

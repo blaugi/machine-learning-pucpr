@@ -68,15 +68,25 @@ def load_and_process_data(relpath: pathlib.Path):
     print(f"X.shape: {X.shape}")
     print(f"y.shape: {y.shape}")
 
+    paths = pd.read_csv(dataset_path.parent / "processed" / "paths_im.csv", header=None)
+    paths = paths.to_numpy().ravel()
+    print(f"paths.shape: {paths.shape}")
+
     Xnew, Xval, ynew, yval = train_test_split(
         X, y, test_size=0.20, random_state=RANDOM_STATE, stratify=y
     )
-    return Xnew, Xval, ynew, yval, dataset_path
+    indices = np.arange(len(X))
+    indices_new, indices_val = train_test_split(
+        indices, test_size=0.20, random_state=RANDOM_STATE, stratify=y
+    )
+    paths_new = paths[indices_new]
+    paths_val = paths[indices_val]
+    return Xnew, Xval, ynew, yval, dataset_path, paths_new
 
 
 def main():
     relpath = pathlib.Path(__file__).parent.parent
-    Xnew, Xval, ynew, yval, dataset_path = load_and_process_data(relpath)
+    Xnew, Xval, ynew, yval, dataset_path, paths = load_and_process_data(relpath)
     print(f"Xnew.shape: {Xnew.shape}, Xval.shape: {Xval.shape}, ynew.shape: {ynew.shape}, yval.shape: {yval.shape}")
 
     # Defining the models and their hyperparameter grids
@@ -172,6 +182,8 @@ def main():
     plt.figure(figsize=(5, 5))
     disp.plot(values_format="d", cmap=None)
     plt.title(f"Confusion Matrix — {best_name}")
+    plt.xticks(rotation=45, ha='right') 
+    plt.tight_layout()
     plt.savefig(relpath / "figures" / "confusion_matrix_best_model.png")
 
     # Log confusion matrix to best model's run
@@ -180,6 +192,20 @@ def main():
 
     print("\nClassification Report (Best model):")
     print(classification_report(ynew, y_pred_best, target_names=target_names))
+
+    misclassified_indices = np.where(y_pred_best != ynew)[0]
+    print(f"\nNumber of misclassified samples: {len(misclassified_indices)}")
+    
+    if len(misclassified_indices) > 0:
+        os.makedirs(relpath / "results", exist_ok=True)
+        misclassified_df = pd.DataFrame({
+            'index': misclassified_indices,
+            'true_label': [target_names[y] for y in ynew[misclassified_indices]],
+            'predicted_label': [target_names[y] for y in y_pred_best[misclassified_indices]],
+            'file_path': paths[misclassified_indices]  # Add file paths
+        })
+        misclassified_df.to_csv(relpath / "results" / "misclassified_samples.csv", index=False)
+        print(f"Misclassified samples saved to {relpath / 'results' / 'misclassified_samples.csv'}")
 
     plt.figure(figsize=(8, 4))
     plt.bar(df_results["model"], df_results["accuracy"], color="skyblue")
